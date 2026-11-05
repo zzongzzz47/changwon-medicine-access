@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-28",
+  "unit_tests": {
+    "count": 26,
+    "passed": 26,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "figure_visual_review": {
+    "count": 6,
+    "passed": 6
+  },
+  "numerical_validation": [
+    "new model validated against exhaustive enumeration on small cases",
+    "existing 20/40/60 population optima reproduced",
+    "every scenario checked using independent dense distance calculations",
+    "existing coverage offsets included in total district fairness",
+    "all 240 one-store replacement cases independently checked",
+    "existing gap equals candidate-fillable plus outside-network gap in all 55 dongs",
+    "staged plan fixed-site constraints verified by solver"
+  ],
+  "primary_scope": "802 screened candidate coordinates; availability unverified",
+  "artifact_checks": {
+    "embedded_figures_identical_to_png": 6,
+    "local_links_checked": true,
+    "review_lists_unique_rows": [
+      60,
+      60,
+      60
+    ],
+    "staged_additions": [
+      20,
+      20,
+      20
+    ],
+    "primary_scenarios_proven_optimal": 11,
+    "single_site_cases": 240,
+    "replacement_options": 720,
+    "browser_preview": "file URL blocked by browser policy; static figure and document structure review completed"
+  }
+}

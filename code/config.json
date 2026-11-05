@@ -1,0 +1,11 @@
+{
+  "scenario_mode": "convenience_only",
+  "demand": "data/inputs/demand.json",
+  "candidates": "data/inputs/candidates.json",
+  "existing": "data/processed/existing_bins.json",
+  "radii_m": [200, 300, 350, 400, 500],
+  "max_new_options": [0, 5, 10, 15, 20],
+  "candidate_feasibility_reviewed": false,
+  "population_boundary_and_year_reviewed": false,
+  "scenario_note": "반경·설치 수는 검토용 시나리오이며 권장 설치 수나 확정 예산이 아님"
+}

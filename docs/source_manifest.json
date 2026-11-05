@@ -1,0 +1,147 @@
+{
+  "retrieved_on": "2026-09-28",
+  "datasets": [
+    {
+      "name": "전국폐의약품수거함표준데이터 중 창원시",
+      "source_url": "https://www.data.go.kr/data/15129445/standard.do",
+      "reference_date": "2026-01-28",
+      "rows": 472,
+      "local_path": "data/raw/changwon_existing_bins_20260928.json",
+      "sha256": "6e124eb3918fb409abd774c491873371cd6008d05ee2416df583ade4b0fed372",
+      "extraction": "SGG_NM에 창원 포함; INSTT_NM 경상남도 창원시. 전국 원본 7,363행에서 추출",
+      "download_metadata": "공공데이터포털 표준데이터 JSON 공개 다운로드"
+    },
+    {
+      "name": "경상남도 창원시_버스정류소 위치정보",
+      "source_url": "https://www.data.go.kr/data/15037805/fileData.do",
+      "reference_date": "2025-12-31",
+      "page_modified": "2026-04-30",
+      "rows": 3526,
+      "local_path": "data/raw/changwon_bus_20251231.csv",
+      "sha256": "908810b0968956c2cfee39691ee17a5735e9c2f9b2655736c18a42442eda346d",
+      "download_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003634298&fileDetailSn=1&insertDataPrcus=N"
+    },
+    {
+      "name": "전국안전상비의약품판매업소표준데이터",
+      "source_url": "https://www.data.go.kr/data/15096289/standard.do",
+      "status": "미확보",
+      "reason": "공식 제공처 파일 링크가 403 응답. 우회하지 않음",
+      "official_download_url": "https://file.localdata.go.kr/file/over_the_counter_medicine_stores/info",
+      "source_crs_metadata": "EPSG:5174 (제공 페이지 표기); 원본 확인 후 적용"
+    },
+    {
+      "name": "창원시 격자 인구 및 경계",
+      "source_url": "https://sgis.mods.go.kr/view/pss/openDataIntrcn",
+      "status": "2024년 인구·가구 100m/500m, 2025년 4개 구획 격자 경계 및 경남 읍면동 경계 확보",
+      "notes": "라라·라마·마라·마마 4개 100km 구획의 16개 표. 창원 경계로 공간 추출 전. 인구 3개 코드와 총가구 1개 코드만 존재. 연령별 격자는 1km 이상 제공. 격자는 iLBA 비밀보호 적용.",
+      "local_path": "data/raw/sgis_grid_population_households_2024.zip",
+      "sha256": "83527b3f4c58ac702990686ee4c46c99c67b1f48f5a9b789b2a4ac19ba020d75"
+    },
+    {
+      "name": "창원시 연령별 인구 현황",
+      "source_url": "https://www.data.go.kr/data/15004972/fileData.do",
+      "reference_date": "2025-05-31",
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/changwon_age_20250531.csv",
+      "sha256": "ce737d25fbfb1d3fe39a7829ff0ddaa84eee9fe5ea4923578e6d22288ba265a6",
+      "extraction": "55개 읍면동 × 101개 연령, 남녀 합계 검증"
+    },
+    {
+      "name": "소상공인시장진흥공단 상가정보 중 창원 편의점",
+      "source_url": "https://www.data.go.kr/data/15083033/fileData.do",
+      "reference_date": "2026-06-30",
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/changwon_convenience_20260630.json",
+      "sha256": "9f12ab88c4814372cfe3e698327cdd9c2b75e7f1a1412d3e57b180297a0f3a42",
+      "extraction": "경남 원본에서 시군구명 창원시 및 소분류 G20405: 950개 업소기록. 좌표 일치 기준 863개 후보 위치"
+    },
+    {
+      "name": "소상공인시장진흥공단 상가정보 중 창원 의료업종·약국",
+      "source_url": "https://www.data.go.kr/data/15083033/fileData.do",
+      "reference_date": "2026-06-30",
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/changwon_health_businesses_20260630.json",
+      "sha256": "7ecf0b47cc78d9ebfc355e27cdf456d7faee34501219361704f8b4412ca5eb83",
+      "extraction": "경남 원본에서 창원시 및 소분류 Q101*, Q102*, G21501. 생활동선 대리지표용; 수거시설로 사용하지 않음"
+    },
+    {
+      "name": "_grid_border_grid_2025_grid_라마_grid_라마.zip",
+      "source_url": "https://sgis.mods.go.kr/view/pss/downloadList",
+      "request_id": "86647",
+      "reference_year": 2025,
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/_grid_border_grid_2025_grid_라마_grid_라마.zip",
+      "sha256": "27649c5567fb7e39231e29e063d94d3672a40b4176656fa61a57d7d5a70b28ac"
+    },
+    {
+      "name": "_grid_border_grid_2025_grid_마마_grid_마마.zip",
+      "source_url": "https://sgis.mods.go.kr/view/pss/downloadList",
+      "request_id": "86647",
+      "reference_year": 2025,
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/_grid_border_grid_2025_grid_마마_grid_마마.zip",
+      "sha256": "312b22cb9ed3c1c9c07de0748eec8f15a743b363cc884d00ef36f97e62e42ddc"
+    },
+    {
+      "name": "_grid_border_grid_2025_grid_라라_grid_라라.zip",
+      "source_url": "https://sgis.mods.go.kr/view/pss/downloadList",
+      "request_id": "86647",
+      "reference_year": 2025,
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/_grid_border_grid_2025_grid_라라_grid_라라.zip",
+      "sha256": "488c3af7578ed91c6ec0551bdbc06a2a8fec5d1443b12beb60584c42ebcaa65f"
+    },
+    {
+      "name": "bnd_dong_38_2025_2Q.zip",
+      "source_url": "https://sgis.mods.go.kr/view/pss/downloadList",
+      "request_id": "86647",
+      "reference_year": 2025,
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/bnd_dong_38_2025_2Q.zip",
+      "sha256": "fee50a38704d456970fdd36de935cd4a1add8651cfeccd493615bb73a882fc3b"
+    },
+    {
+      "name": "_grid_border_grid_2025_grid_마라_grid_마라.zip",
+      "source_url": "https://sgis.mods.go.kr/view/pss/downloadList",
+      "request_id": "86647",
+      "reference_year": 2025,
+      "retrieved_on": "2026-09-28",
+      "local_path": "data/raw/_grid_border_grid_2025_grid_마라_grid_마라.zip",
+      "sha256": "26907b1eda302c4289bd178a88d9c1ca8ddb422ae0f03e6bebfd2b9bbc5e8e7f"
+    },
+    {
+      "name": "OpenStreetMap 창원 및 주변 도로",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "reference_date": "2026-09-29",
+      "retrieved_on": "2026-09-29",
+      "local_path": "data/raw/changwon_osm_highways_20260929.json",
+      "sha256": "245cb87314653fe7232afb96d9cc38418fb0507e9453879f047407af062feb21",
+      "download_metadata": "data/raw/changwon_osm_highways_20260929.metadata.json",
+      "notes": "공개지도. 보행 경로 검증 전; ODbL, OpenStreetMap contributors.",
+      "status": "원본 확보·추출 및 활용 범위 점검 완료"
+    },
+    {
+      "name": "국민건강보험공단 2024 지역별 의료이용 통계 엑셀",
+      "source_url": "https://www.nhis.or.kr/nhis/together/wbhaec06900m01.do?articleNo=11006399&mode=view",
+      "reference_date": "2024",
+      "retrieved_on": "2026-09-29",
+      "local_path": "data/raw/nhis_medical_use_2024_excel.zip",
+      "sha256": "3cecb0222f5d0046a2387cda7907fa21089b7bece86a1e86cc394f19a798e68e",
+      "download_metadata": "data/raw/nhis_medical_use_2024_excel.metadata.json",
+      "notes": "창원 5개 구 자료 추출; 격자별 환자 수·폐의약품 발생량 아님.",
+      "status": "원본 확보·추출 및 활용 범위 점검 완료"
+    },
+    {
+      "name": "경상남도 창원시 시내버스 탑승인원",
+      "source_url": "https://www.data.go.kr/data/15143794/fileData.do",
+      "reference_date": "2025-05-19/2025-05-25",
+      "retrieved_on": "2026-09-29",
+      "local_path": "data/raw/changwon_boardings_20250519_0525.xlsx",
+      "sha256": "3704a098dd7520b9db8c0ea0de421b8ad99b3725aa8ce01a63a547490dc85d70",
+      "download_metadata": "data/raw/changwon_boardings_20250519_0525.metadata.json",
+      "notes": "정류장 합계와 노선별 시간대. 위치 자료와 코드 대응 필요; 표별 합계 차이 확인 전.",
+      "status": "원본 확보·추출 및 활용 범위 점검 완료"
+    }
+  ],
+  "last_updated_on": "2026-09-29"
+}
